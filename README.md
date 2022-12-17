@@ -1,1 +1,1 @@
-# skidded-music-bot
+original version: github.com/ZerioDev/Music-bot
