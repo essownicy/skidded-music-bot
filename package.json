@@ -1,0 +1,23 @@
+{
+	"name": "music-bot",
+	"main": "main.js",
+	"author": "adasiek#9999",
+	"version": "6.0.0",
+	"description": "bot",
+	"scripts": {
+		"start": "node main.js",
+		"pm2": "pm2 start main.js",
+		"pm2_stop": "pm2 stop main.js",
+		"pm2_stats": "pm2 monitor main.js",
+		"pm2_restart": "pm2 restart main.js"
+	},
+	"dependencies": {
+		"discord-player": "^5.3.1",
+		"discord.js": "^14.1.2",
+		"ffmpeg-static": "^5.0.2",
+		"ms": "^3.0.0-canary.1",
+		"nodemon": "^2.0.20",
+		"opusscript": "^0.0.8",
+		"pm2": "^5.2.2"
+	}
+}
